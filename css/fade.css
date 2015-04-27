@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+/* SETTING */
+.fadeTransition {
+	-webkit-transition: opacity 600ms ease-out;
+	-moz-transition: opacity 600ms ease-out;
+	-ms-transition: opacity 600ms ease-out;
+	transition: opacity 600ms ease-out;
+	opacity: 0;
+}
+.fadeTransition.display-show {
+	display: block !important;
+}
+.fadeTransition.opacity-show {
+	opacity: 1 !important;
+}
